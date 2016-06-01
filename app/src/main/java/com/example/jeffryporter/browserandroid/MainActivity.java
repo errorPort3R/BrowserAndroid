@@ -50,11 +50,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     {
         if (v == backButton)
         {
-
+            webView.goBack();
         }
         else if (v == forwardButton)
         {
-
+            webView.goForward();
         }
         else if (v == goButton)
         {
